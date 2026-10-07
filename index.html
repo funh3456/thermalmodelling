@@ -208,26 +208,7 @@
 
       .container{width:min(calc(100% - 28px),var(--max))}.nav-inner{height:70px}.brand-copy{font-size:14px}.nav-links{position:absolute;top:70px;left:14px;right:14px;padding:14px;background:rgba(7,18,31,.98);border:1px solid var(--line);border-radius:16px;display:none;flex-direction:column;align-items:stretch;gap:4px;box-shadow:var(--shadow)}.nav-links.open{display:flex}.nav-links a{padding:11px 12px;border-radius:10px}.nav-cta{margin-top:4px}.menu-btn{display:block}.hero{padding:118px 0 60px}.hero-grid{gap:42px}h1{font-size:clamp(44px,14vw,64px)}.lead{font-size:18px}.hero-actions .btn{width:100%}.hero-meta{gap:9px 16px}.float-card{display:none}.trust-inner{grid-template-columns:1fr 1fr;padding:16px 0}.trust-item:nth-child(2){border-right:0}.trust-item{padding:10px 8px}.trust-item:nth-child(-n+2){border-bottom:1px solid var(--line)}section{padding:78px 0}.services,.fit-cards{grid-template-columns:1fr}.service-card{padding:26px}.workflow{grid-template-columns:1fr}.step{min-height:190px}.step h3{margin-top:44px}.partner-box{padding:34px 26px}.contact{padding-top:84px}.footer-inner{flex-direction:column;align-items:flex-start}.credit-table{min-width:0}.credit-table-wrap{overflow:hidden}.credits-head{margin-bottom:24px}
     }
-      .nav-tools{display:flex;align-items:center;gap:10px;flex-shrink:0}
-    .language-switch{display:flex;gap:2px;padding:3px;border:1px solid var(--line);border-radius:10px;background:rgba(255,255,255,.035)}
-    .language-switch a{padding:5px 8px;border-radius:7px;font-size:12px;font-weight:800;color:var(--muted);line-height:1.5}
-    .language-switch a:hover{color:var(--text)}
-    .language-switch a[aria-current="page"]{background:rgba(88,224,194,.12);color:var(--accent-2)}
-    @media(max-width:1120px) and (min-width:761px){.nav-inner{gap:14px}.nav-links{gap:16px;font-size:13px}.brand-copy{font-size:14px}}
-    @media(max-width:760px){.nav-inner{gap:8px}.nav-tools{gap:2px}.brand-copy{font-size:12px}.brand-copy small{font-size:8px;letter-spacing:.08em}.brand{gap:8px}.language-switch a{padding:5px 6px}.menu-btn{padding:5px}}
-    @media(max-width:360px){.brand-mark{width:30px;height:30px}.brand-copy{font-size:11px}.brand-copy small{font-size:7px}.language-switch a{padding:5px}.menu-btn svg{width:22px;height:22px}}
-    html[lang="hu"] .hero-grid>*{min-width:0}
-    html[lang="hu"] .hero h1{font-size:clamp(42px,5vw,72px);overflow-wrap:break-word}
-    @media(max-width:760px){html[lang="hu"] .hero h1{font-size:clamp(38px,11vw,48px)}}
-    html[lang="hu"] .hero .eyebrow{max-width:100%}
-</style>
-<link rel="alternate" hreflang="en" href="https://thermalmodelling.hu/"/>
-<link rel="alternate" hreflang="hu" href="https://thermalmodelling.hu/hu/"/>
-<link rel="alternate" hreflang="x-default" href="https://thermalmodelling.hu/"/>
-<script src="/language.js" defer></script>
-<meta property="og:locale" content="en_GB"/>
-<meta property="og:locale:alternate" content="hu_HU"/>
-<noscript><style>.reveal{opacity:1;transform:none}</style></noscript>
+  </style>
 </head>
 <body>
 <nav aria-label="Primary navigation" class="nav" id="nav">
@@ -236,21 +217,15 @@
 <span class="brand-mark">TM</span>
 <span class="brand-copy">THERMALMODELLING.HU <small>BUILDING PERFORMANCE</small></span>
 </a>
+<button aria-expanded="false" aria-label="Open navigation" class="menu-btn" id="menuBtn">
+<svg fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+</button>
 <div class="nav-links" id="navLinks">
 <a href="#services">Capabilities</a>
 <a href="#credits">Certifications</a>
 <a href="#process">Process</a>
 <a href="#fit">Typical fit</a>
 <a class="nav-cta" href="#contact">Discuss a project</a>
-</div>
-<div class="nav-tools">
-<div class="language-switch" role="group" aria-label="Language selection">
-<a href="/hu/?lang=hu" data-language="hu" lang="hu" hreflang="hu" aria-label="Magyar változat">HU</a>
-<a href="/?lang=en" data-language="en" lang="en" hreflang="en" aria-label="English version" aria-current="page">EN</a>
-</div>
-<button aria-expanded="false" aria-label="Open navigation" class="menu-btn" id="menuBtn">
-<svg fill="none" stroke="currentColor" stroke-width="1.8" viewbox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
-</button>
 </div>
 </div>
 </nav>
